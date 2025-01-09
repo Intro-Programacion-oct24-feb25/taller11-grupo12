@@ -29,7 +29,7 @@ public class Problema3 {
         System.out.println("ingrese nota4");
         nota4 = entrada.nextDouble();
         promedioCualitativo = promedioCualitativo(nota1, nota2, nota3, nota4);
-        String cadena = "el promedio de las notas: "+nota1+", "+nota2+","+ nota3+", "+ nota4 +"es "+promedioCualitativo;
+        String cadena = "el promedio de las notas: "+nota1+", "+nota2+", "+ nota3+", "+ nota4 +"es "+promedioCualitativo;
         String salida = cualitativoMayuscula(cadena);
         System.out.printf("%s",salida);
     }
