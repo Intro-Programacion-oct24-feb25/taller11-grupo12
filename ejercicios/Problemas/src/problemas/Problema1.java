@@ -10,33 +10,24 @@ package problemas;
  * @author reroes
  */
 public class Problema1 {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        int[][] datos = {{1, 2, 3}, {10, 20, 30}, {100, 200, 300}};
-        imprimirDatos(datos);
+        int[][] informacion = {{1, 2, 3}, {10, 20, 30}, {100, 200, 300}};
+        arregloPares(informacion);
         
     }
 
-    public static void imprimirDatos(int[][] datos) {
-            for (int i = 0 ; i < datos.length ; i++){
-                 for (int j = 0 ; j < datos[i].length ;j++){
-                        if (datos[i][j]% 2 == 0){
-                            
-
-                 }
-                System.out.println (datos[i][j]);
-                    
-                    
+    public static void arregloPares(int[][] datos) {
+        String pares = "";
+        
+        for(int i = 0; i < datos.length; i++){
+            for( int j = 0; j < datos.length; j++){
+                if(datos[i][j]%2 == 0){
+                     pares = String.format("%s%d\n", pares, datos[i][j]);
                 }
             }
-        
+        }
+        System.out.printf("%s\n",pares);
 
     }
-    
-            
-        
-    
+
 }
