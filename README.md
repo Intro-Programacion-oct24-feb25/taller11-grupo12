@@ -1,4 +1,5 @@
 # Taller 11 (Laboratorio)
+### Integrantes: Abraham Ayala Mendoza - Joel Dominguez Ochoa
 ## Construcción de programas usando módulos y funciones
 
 ### Problema 01
